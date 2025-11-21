@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tools.seungyongcho.com/ig-9cut/sitemap.xml
