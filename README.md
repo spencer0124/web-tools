@@ -22,10 +22,10 @@
 
 ```mermaid
 graph TD
-    Hub[web-tools (Main)] -->|Submodule| Tool1[insta-grid-splitter]
-    Hub -->|Submodule| Tool2[Nano Banana (Coming Soon)]
+    Hub["web-tools (Main)"] -->|Submodule| Tool1["insta-grid-splitter"]
+    Hub -->|Submodule| Tool2["Nano Banana (Coming Soon)"]
     
-    Tool1 -->|Submodule| Assets[web-tools-common-assets]
+    Tool1 -->|Submodule| Assets["web-tools-common-assets"]
     Tool2 -->|Submodule| Assets
     
     style Hub fill:#f9f,stroke:#333,stroke-width:2px
