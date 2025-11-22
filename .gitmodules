@@ -1,3 +1,6 @@
 [submodule "grid"]
 	path = ig-9cut
 	url = https://github.com/spencer0124/insta-grid-splitter.git
+[submodule "ig-carousel"]
+	path = ig-carousel
+	url = https://github.com/spencer0124/insta-carousel.git
