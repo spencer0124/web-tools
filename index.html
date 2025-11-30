@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="naver-site-verification" content="13b481f6a31c5d12d7fef415579603b2ce954c02" />
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="naver-site-verification"
+      content="13b481f6a31c5d12d7fef415579603b2ce954c02"
+    />
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DQTBGHNSYB"></script>
     <script>
@@ -15,12 +18,45 @@
       gtag('config', 'G-DQTBGHNSYB');
     </script>
     <title>SeungYong Tools Hub</title>
-</head>
-<body>
-    <h1>SeungYong Tools Hub</h1>
-   <ul>
-        <li><a href="/ig-9cut/">인스타 바둑판 피드 메이커 (IG 9-Cut)</a></li>
-        <li><a href="/ig-carousel/">인스타 사진 이어붙이기 (Carousel)</a></li>
-    </ul>
-</body>
+    <link rel="stylesheet" href="assets/toss-ui.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <div class="header-section">
+        <h1>인스타그램 피드,<br>쉽고 예쁘게</h1>
+        <p>앱 설치 없이, 웹에서 바로.</p>
+        <div class="feature-badges">
+          <span class="badge">✨ 로그인 필요 없음</span>
+          <span class="badge">🔒 서버 전송 없음</span>
+        </div>
+      </div>
+
+      <div class="content-area" style="overflow: visible">
+        <div class="tool-list">
+          <a href="/ig-9cut/" class="tool-item">
+            <div style="display: flex; align-items: center">
+              <span class="tool-icon">📸</span>
+              <div class="tool-info">
+                <h3>바둑판 피드 만들기</h3>
+                <p>사진 한 장으로 꽉 찬 프로필 완성</p>
+              </div>
+            </div>
+            <span class="arrow-icon">›</span>
+          </a>
+
+          <a href="/ig-carousel/" class="tool-item">
+            <div style="display: flex; align-items: center">
+              <span class="tool-icon">🎞️</span>
+              <div class="tool-info">
+                <h3>파노라마 사진 자르기</h3>
+                <p>옆으로 이어지는 긴 사진 만들기</p>
+              </div>
+            </div>
+            <span class="arrow-icon">›</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
